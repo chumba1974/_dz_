@@ -1,0 +1,233 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	background-color: #E6E6FA;
+	min-width: 320px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+section {
+	padding: 50px 0;
+	background-color: 
+}
+
+a {
+	color: #111;
+}
+
+a:hover {
+	color: #555;
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: #111;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.navbar-nav .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+.top-menu li a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #111;
+	height: 1px;
+	transition: all .3s;
+	transform: scale(0);
+}
+
+.top-menu li a:hover::after {
+	transform: scale(1);
+}
+
+.modal-body img {
+	max-width: 100px;
+}
+
+
+
+
+.my-carousel {
+	padding: 0;
+}
+
+.my-carousel img {
+	filter: brightness(65%);
+}
+
+.my-carousel .carousel-item {
+	display: flex;
+	max-height: 500px;
+}
+
+.my-carousel .carousel-item img {
+	object-fit: cover;
+}
+
+.carousel-caption {
+	padding-bottom: 150px;
+}
+
+
+
+
+.product-card {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+	transition: all .3s;
+	background-color: #D8BFD8;
+}
+
+.product-card:hover {
+	box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.product-thumb a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	padding: 20px;
+}
+
+.product-thumb img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product-details {
+	padding: 20px;
+}
+
+.product-details h4 a {
+	font-weight: 500;
+	display: block;
+	height: 60px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.product-details p {
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: #999;
+	height: 44px;
+	overflow: hidden;
+}
+
+.product-bottom-details {
+	overflow: hidden;
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+}
+
+.product-price {
+	font-size: 18px;
+	color: #ee6e73;
+	font-weight: 600;
+}
+
+.product-price small {
+	color: #ccc;
+	font-weight: 400;
+	text-decoration: line-through;
+	margin-right: 5px;
+}
+
+.product-links a {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+
+
+#user-text {
+	font-size: 20px;
+	border-radius: 3px;
+	margin-top: 10px;
+	height: 50px;
+	width: 500px;
+}
+
+#user-text-button {
+	margin-top: 10px;
+	margin-right: 3px;
+	height: 25px;
+	width: 250px;
+}
+
+.contact-content {
+	text-align: center;
+
+	background-color:#acacac;
+	margin-top: 0;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+hr {
+	border: none; 
+    background-color: #000000;
+    padding-bottom: 3px;
+}
+
+.footer {
+	background-color: #C0C0C0;
+	margin: 0;
+	padding: 50px;
+}
+
+.footer h4 {
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 3px;
+}
+
+.footer a {
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.footer a:hover {
+	color: #696969;
+	text-decoration: underline;
+}
+
+.footer a,
+.footer li {
+	color: #000000;
+}
+
+.footer li a {
+	display: block;
+}
+
+.footer-icons a {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+.contact-content {
+	background-color: #D8BFD8;
+}
